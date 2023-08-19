@@ -12120,3 +12120,26 @@ pre {
   /* opacity: 1; */
   display: unset;
 }
+
+.p-mobile-rayan {
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
+  margin-bottom: 12px;
+  letter-spacing: 0.6px;
+}
+
+@media (max-width: 768px) {
+  .p-mobile-rayan {
+    text-align: left;
+  }
+}
+
+.p-mobile-rayan-2 {
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
+  margin-bottom: 12px;
+  letter-spacing: 0.6px;
+}
+@media (max-width: 376px) {
+  .p-mobile-rayan-2 {
+    text-align: left;
+  }
+}
