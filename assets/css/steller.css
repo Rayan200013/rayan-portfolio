@@ -12143,3 +12143,25 @@ pre {
     text-align: left;
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0a4d68;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00ffca;
+  height: 110px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
